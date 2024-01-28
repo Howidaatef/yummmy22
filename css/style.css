@@ -1,0 +1,33 @@
+body {
+  background-color: #0d0d0d;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+/* nav-bar */
+.logo {
+  width: 50px;
+}
+.nav-left {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+.nav-right {
+  background-color: #ffffff;
+  color: #0d0d0d;
+}
+
+.meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color:aqua;
+  top: 100%;
+  transition: 0.5s;
+}
+.meal:hover .meal-layer{
+    top: 0;
+}
+.main-nav{z-index: 555;}
